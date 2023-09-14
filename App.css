@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  .home,
+  .services,
+  .reports,
+  .contact,
+  .events,
+  .support {
+  /* display: flex; */
+  margin-left: 260px;
+  font-size: 2rem;
+  max-width: 100%;
+  margin-left: 15.8rem;
+  padding: 20px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #33ccff 0%, #66ff66 100%);
+
+  
+  
+  }
+  .home{
+    /* width: 1000px; */
+     }
+  

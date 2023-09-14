@@ -1,0 +1,53 @@
+.header {
+    background-color: #333;
+    color: red;
+    padding: 10px;
+  }
+ /* Flexbox layout for the overall structure */
+.App {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh; /* Make sure the container takes the full viewport height */
+  }
+  /* Sidebar styles */
+.sidebar {
+    flex: 0 0 250px; /* Sidebar width */
+    background-color: #f5f5f5;
+    border-right: 1px solid #ccc;
+  }
+ /* Main content styles */
+.main-content {
+    flex: 1; /* Takes up remaining space */
+    padding: 20px;
+  }
+
+  /* Styles for the navigation bar */
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    margin-bottom: 10px;
+  }
+  .side-nav{
+    display: flex;
+    
+  }
+  
+  .side-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .side-nav a:hover {
+    color: #ff6600;
+  }
+  
+  
+  
+  
+  
+  
+  
