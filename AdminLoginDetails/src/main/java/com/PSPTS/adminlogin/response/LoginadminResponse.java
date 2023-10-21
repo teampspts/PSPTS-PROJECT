@@ -1,0 +1,15 @@
+package com.PSPTS.adminlogin.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class LoginadminResponse {
+
+	String message;
+	Boolean status;
+	
+}
