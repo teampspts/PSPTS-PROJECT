@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+
+}
+.container-add {
+  max-width: 1500px;
+  margin-top: 83px !important;
+  margin-left: 250px !important;
+  padding: 20px;
+  background-color:#ecedf0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.addform-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #393572;
+  font-weight: bolder;
+}
+.form-container{
+    display: grid;  
+    gap: 10px;  
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.input-feedback{
+  color: red;
+}
+
+.addform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  gap: 20px;
+}
+
+.form-input {
+  flex: 1;
+  margin-right: 2.5rem;
+  
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+  /* font-weight: bold; */
+  color: #333;
+  font-size: 1rem;
+  /* text-align: center; */
+}
+
+.form-input input,
+.form-input select,
+.form-input textarea {
+  /* width: 100%; */
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+input.input-error,
+.datepicker.input-error
+select.input-error,
+textarea.input-error{
+  border-color: orangered;
+}
+.form-input 
+input:focus, 
+select:focus,
+textarea:focus  {
+  border: 1px solid #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow on focus */
+}
+
+
+.form-input .input-feedback {
+  color: #cc0000;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-add{
+  width: 100px;
+  background-color:#393572;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+#diplaymessage{
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-input {
+    margin-right: 0;
+  }
+}

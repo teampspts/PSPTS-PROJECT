@@ -1,0 +1,90 @@
+.container-delete{
+  width:85%;
+  margin-top: 85px !important;
+  margin-left: 250px !important;
+  padding: 20px;
+  background-color:#ecedf0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 87vh;
+  
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.search-container-delete {
+  background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /*Center the container*/
+/*   
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; */
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color:#393572;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.delete-button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .row-one {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
